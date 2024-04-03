@@ -32,10 +32,11 @@ public class MiniProj {
 			
 		} while(usrNum >= 0); {
 			
-			System.out.println("My number is: ");
+			System.out.print("My number is: ");
 			System.out.println(myNumbr);
 		}
 			
+
 		
 
 	}
