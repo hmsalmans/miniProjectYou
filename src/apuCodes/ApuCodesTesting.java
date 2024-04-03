@@ -17,6 +17,14 @@ public class ApuCodesTesting {  // THIS IS CLASS NAME
 		
 		System.out.println(fnalName.length()); // length method
 		
+		
+		int a = 23;
+		int b = 7;
+		
+		//find modulo(remainder)
+		
+		int modu = a%b; // answer should be 2
+		System.out.println(modu);
 
 	}
 
