@@ -21,6 +21,7 @@ public class SamplePackageee {
 						          ///////----Class 3rd--------/////
 							      //-----------------------------//
 			
+			
 		  
 		
 //-------------------------------------------------------	
@@ -116,6 +117,7 @@ public class SamplePackageee {
 //                    //Note that the data types of elements that would be stored in the ArrayList were specified in angle brackets: <String>.
 //					  //List is an interface that provides a set of methods for manipulating elements in a list.
 					  //ArrayList is a class that implements the List interface. 	
+		
 //			nameList.add("shshss");
 //			nameList.add("zhzhzhz");
 //			nameList.add("fgfgfgfgf");
@@ -190,9 +192,36 @@ public class SamplePackageee {
 		
 //----------------------------------------------	
 		
+	
+		
+		 ////Class 6 //////
+		   //---------------//
+		
+		//saving lists items with their index specified. (
+		
+		
+  List<Integer> anylist = new ArrayList<Integer>();
+		  
+          
+		  anylist.add(25); 
+		  anylist.add(22); 
+		  anylist.add(2, 44); //this will make sure 44 added to index 2. (works only if added after index 1)
+		  anylist.add(66); 
+		  anylist.add(0, 13);//this will make sure 13 added to index 0.(will work at any position we add)
+		  anylist.add(28);
+		  anylist.add(5, 04);//this will make sure 13 added to index 5.(works only if added after index 4)
+		  
+		  
+		  System.out.println(anylist);
+	
 		
 		
 		
+		
+		
+		
+		
+		//---------------------------------------//
 		
 		               ////Class 7 - Mon, August 15//////
 					   //------------------------------//	
@@ -242,7 +271,7 @@ public class SamplePackageee {
 	     
 //-----------------------------------------------
 	     
-	     
+	    
 	     
 	     
 	                  /////Class 8 - Wed, August 17///////
