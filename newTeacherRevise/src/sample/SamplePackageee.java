@@ -110,6 +110,13 @@ public class SamplePackageee {
 //	  }
 	 
 		
+		
+		   ////--------Class 6------ //////
+		  ////-----------------------//////
+		
+		
+		
+		
 //---------LIST (dont need to mention size of array)
 		
 //		List<String> nameList = new ArrayList<String>();   // you push as many values as you want and don't have to declare number of values.
@@ -189,30 +196,22 @@ public class SamplePackageee {
 		
 		
 		
-		
-//----------------------------------------------	
-		
-	
-		
-		 ////Class 6 //////
-		   //---------------//
-		
 		//saving lists items with their index specified. (
 		
 		
-  List<Integer> anylist = new ArrayList<Integer>();
-		  
-          
-		  anylist.add(25); 
-		  anylist.add(22); 
-		  anylist.add(2, 44); //this will make sure 44 added to index 2. (works only if added after index 1)
-		  anylist.add(66); 
-		  anylist.add(0, 13);//this will make sure 13 added to index 0.(will work at any position we add)
-		  anylist.add(28);
-		  anylist.add(5, 04);//this will make sure 13 added to index 5.(works only if added after index 4)
-		  
-		  
-		  System.out.println(anylist);
+//  List<Integer> anylist = new ArrayList<Integer>();
+//		  
+//          
+//		  anylist.add(25); 
+//		  anylist.add(22); 
+//		  anylist.add(2, 44); //this will make sure 44 added to index 2. (works only if added after index 1)
+//		  anylist.add(66); 
+//		  anylist.add(0, 13);//this will make sure 13 added to index 0.(will work at any position we add)
+//		  anylist.add(28);
+//		  anylist.add(5, 04);//this will make sure 13 added to index 5.(works only if added after index 4)
+//		  
+//		  
+//		  System.out.println(anylist);
 	
 		
 		
@@ -221,7 +220,10 @@ public class SamplePackageee {
 		
 		
 		
-		//---------------------------------------//
+		///////------------------------------------------------//////
+		
+		
+		
 		
 		               ////Class 7 - Mon, August 15//////
 					   //------------------------------//	
