@@ -11,17 +11,34 @@ public class TestClass {
 		
 		
 		
-		List<Integer> anylist = new ArrayList<Integer>();
+		
+    int [] items = {23, 22, 65, 9, 3, 12, 15, 20, 25};
+    
+    for (int i = 0; i < 9; i++) {
+    	
+    	
+		    	if (items[i] == 12) {
+		    	 	
+		    		System.out.println("The value is available in the array");
+		    		break;
+		    		
+		    	}
+		    	
+		    	else {
+		    		System.out.println("Not available");
+		    	
+		    	}
+    	
+    	
+    	
+    }
 		  
 		  
-		  anylist.add(25); 
-		  anylist.add(22); 
-		  anylist.add(2, 44); //this will make sure 44 added to index 1.
-		  anylist.add(66); 
-		  anylist.add(0, 13);//this will make sure 13 added to index 0.
-		  anylist.add(28);
 		  
-		  System.out.println(anylist);
+		  
+		  
+		  
+		  
 
 	}
 
