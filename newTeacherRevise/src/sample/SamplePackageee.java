@@ -246,12 +246,17 @@ public class SamplePackageee {
 		
                   //FUNCTIONS 
 		
+		
+//		TestClass objectNew = new TestClass();
+//		
+//		objectNew.januAdd(7, 5);
+//		objectNew.januAdd(7, 53);
+		
+		
+		
 //		SamplePackageee testingFunction = new SamplePackageee(); // object(reference of class) must be inside main method.
 		
-				
-		
-		
-		//testingFunction.addingNumb();
+//       testingFunction.addingNumb();
 		  
 //		 testingFunction.arguFunc(25, 15);
 //		 testingFunction.arguFunc(12, 3);
@@ -498,9 +503,26 @@ public class SamplePackageee {
 														
 		///plz follow Class15Frame in seleniumnew packg.
 		
-	} //<--------///////this bracket "}" is end of main method/////////    
-	     
-	     
+		
+		
+		
+		
+		
+		 ////////////////////////   
+		 /////////////////////////
+		/////////////////////////
+		/////////////////////////
+		//////////////////////////
+		
+		
+	} //<--------///////this bracket "}" is the end of main method/////////  
+	
+
+	  ////////////////////////   
+	 /////////////////////////
+	/////////////////////////
+	/////////////////////////
+	//////////////////////////
 
 	
 //----------------------------------------------
