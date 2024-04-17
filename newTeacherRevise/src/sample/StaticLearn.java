@@ -12,13 +12,16 @@ public class StaticLearn {
 	 
 	 
 	 
-	 public static int negative(int a, int b) {
+	 public static  int negative(int a, int b) {
 		 
 		 		int res = b - a;
+				return res;
 		 		
-		 		return res;
+		 		
 	 
 	 }
+	 
+	 
 	 
 	 
 	 
