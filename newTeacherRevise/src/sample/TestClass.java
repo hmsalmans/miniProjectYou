@@ -9,28 +9,12 @@ public class TestClass {
 		// TODO Auto-generated method stub
 		
 		
-	
-		
+	//Static ---class9 rev
+		int val = StaticLearn.negative(15, 12);
    
-    	
-    	
-    }
-		  
-		  
-	public void januAdd(int x, int y) {
-		
-		int add = x + y;
-		
-		System.out.println(add);
-		
-		
-	}
-	  
-		  
-		  
-		  
-		  
+    	 System.out.println(val);
 
 	
 
-}
+	}
+};
