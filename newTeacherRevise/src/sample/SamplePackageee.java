@@ -335,13 +335,13 @@ public class SamplePackageee {
 	     
 		  // A new class is created separately called StaticLearn. please follow through that. And that is referenced in this class main method.
 
-	// if you use static key word in a function/method/decleration in different class, you don't need to create an object to use that function. You can just use that class to use that function.     
+	// if you use static key word in a function/method/declaration in different class, you don't need to create an object to use that function. You can just use that class to use that function.     
 	     
 	     
 	     
 	 	
 	//	   StaticLearn stl = new StaticLearn();
-	//	   stl.addingTwoNumbs(15, 10); //using object when we dont have static word in function.
+	//	   stl.addingTwoNumbs(15, 10); //using object when we don't have static word in function.
 		   	
  	 //  StaticLearn.addingTwoNumbs(13, 7);// we did'nt use object and still get result because of static key word in function.
 			
@@ -356,40 +356,40 @@ public class SamplePackageee {
 //			
 //			   //--------\-------------\\
 //			
-//			StaticLearn valu = new StaticLearn (); //giving new value, original was 10
-//				System.out.println(valu.aaa);
-//				
-//				valu.aaa = 40;
-//				System.out.println(valu.aaa);
-//		
-//				
-//		    StaticLearn valu1 = new StaticLearn (); //giving new value, previous was 40
-//				System.out.println(valu1.aaa);
-//					
-//				valu1.aaa = 50;
-//				System.out.println(valu1.aaa);
-//		
-//				
-//		    StaticLearn valu2 = new StaticLearn (); //giving new value, previous was 50
-//				System.out.println(valu2.aaa);
-//				
-//				valu2.aaa = 60;
-//				System.out.println(valu2.aaa);
-//				
-//	     
-//		   StaticLearn valu3 = new StaticLearn (); //giving new value, previous was 60
-//	            System.out.println(valu3.aaa);
-//			
-//	      		valu3.aaa = 100;
-//	      		System.out.println(valu3.aaa);
-//				
-//		
-//		all of these different objects underneath will produce same result of aaa.
-//				
-//				System.out.println(valu.aaa); 
-//				System.out.println(valu1.aaa);
-//				System.out.println(valu2.aaa);
-//				System.out.println(valu3.aaa);
+			StaticLearn valu = new StaticLearn (); //giving new value, original was 10
+				System.out.println(valu.aaa);
+				
+				valu.aaa = 40;
+				System.out.println(valu.aaa);
+		
+				
+		    StaticLearn valu1 = new StaticLearn (); //giving new value, previous was 40
+				System.out.println(valu1.aaa);
+					
+				valu1.aaa = 50;
+				System.out.println(valu1.aaa);
+		
+				
+		    StaticLearn valu2 = new StaticLearn (); //giving new value, previous was 50
+				System.out.println(valu2.aaa);
+				
+				valu2.aaa = 60;
+				System.out.println(valu2.aaa);
+				
+	     
+		   StaticLearn valu3 = new StaticLearn (); //giving new value, previous was 60
+	            System.out.println(valu3.aaa);
+			
+	      		valu3.aaa = 100;
+	      		System.out.println(valu3.aaa);
+				
+		
+		//all of these different objects underneath will produce same result of aaa.
+				
+				System.out.println(valu.aaa); 
+				System.out.println(valu1.aaa);
+				System.out.println(valu2.aaa);
+				System.out.println(valu3.aaa);
 //		
 //		        //--------\-------------\\
 //	
