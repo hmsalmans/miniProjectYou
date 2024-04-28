@@ -356,35 +356,36 @@ public class SamplePackageee {
 //			
 //			   //--------\-------------\\
 //			
-			StaticLearn valu = new StaticLearn (); //giving new value, original was 10
-				System.out.println(valu.aaa);
+			StaticLearn valu = new StaticLearn (); 
+				System.out.println(valu.aaa);//Getting value of "aaa" from class StaticLearn by creating its object "valu".
 				
-				valu.aaa = 40;
-				System.out.println(valu.aaa);
+				valu.aaa = 40;//giving new value, previous was 10
+				System.out.println(valu.aaa);//
 		
 				
-		    StaticLearn valu1 = new StaticLearn (); //giving new value, previous was 40
-				System.out.println(valu1.aaa);
+		    StaticLearn valu1 = new StaticLearn (); 
+				System.out.println(valu1.aaa); //still 10 as static not used in variable in StaticLearn class.
 					
-				valu1.aaa = 50;
-				System.out.println(valu1.aaa);
+				valu1.aaa = 50;//giving new value, original was 10
+				System.out.println(valu1.aaa);//still 10 as static not used in variable in StaticLearn class.
 		
 				
-		    StaticLearn valu2 = new StaticLearn (); //giving new value, previous was 50
-				System.out.println(valu2.aaa);
+		    StaticLearn valu2 = new StaticLearn (); 
+				System.out.println(valu2.aaa);//still 10 as static not used in variable in StaticLearn class.
 				
-				valu2.aaa = 60;
+				valu2.aaa = 60;//giving new value, previous was 10
 				System.out.println(valu2.aaa);
 				
 	     
-		   StaticLearn valu3 = new StaticLearn (); //giving new value, previous was 60
-	            System.out.println(valu3.aaa);
+		   StaticLearn valu3 = new StaticLearn (); 
+	            System.out.println(valu3.aaa);//still 10 as static not used in variable in StaticLearn class.
 			
-	      		valu3.aaa = 100;
+	      		valu3.aaa = 100;//giving new value, previous was 10
 	      		System.out.println(valu3.aaa);
 				
 		
-		//all of these different objects underneath will produce same result of aaa.
+		//all of these different objects underneath will produce same result of aaa. 
+	      		// but if we use static...1)we wont need to make an object of the class and ...2) static will change it "aaa" value and make it constant until changed again.
 				
 				System.out.println(valu.aaa); 
 				System.out.println(valu1.aaa);
