@@ -356,40 +356,7 @@ public class SamplePackageee {
 //			
 //			   //--------\-------------\\
 //			
-			StaticLearn valu = new StaticLearn (); //giving new value, original was 10
-				System.out.println(valu.aaa);
-				
-				valu.aaa = 40;
-				System.out.println(valu.aaa);
-		
-				
-		    StaticLearn valu1 = new StaticLearn (); //giving new value, previous was 40
-				System.out.println(valu1.aaa);
-					
-				valu1.aaa = 50;
-				System.out.println(valu1.aaa);
-		
-				
-		    StaticLearn valu2 = new StaticLearn (); //giving new value, previous was 50
-				System.out.println(valu2.aaa);
-				
-				valu2.aaa = 60;
-				System.out.println(valu2.aaa);
-				
-	     
-		   StaticLearn valu3 = new StaticLearn (); //giving new value, previous was 60
-	            System.out.println(valu3.aaa);
-			
-	      		valu3.aaa = 100;
-	      		System.out.println(valu3.aaa);
-				
-		
-		//all of these different objects underneath will produce same result of aaa.
-				
-				System.out.println(valu.aaa); 
-				System.out.println(valu1.aaa);
-				System.out.println(valu2.aaa);
-				System.out.println(valu3.aaa);
+		 
 //		
 //		        //--------\-------------\\
 //	
