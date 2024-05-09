@@ -11,18 +11,18 @@ public class BrowsersDriver {
 	
 	public BrowsersDriver() { //constructor
 		
-		this.driver = driver;
+		driver = driver;
 		
 		
 		System.setProperty("webdriver.chrome.driver", "/src/test/resources/drivers/chromedriver");
 		
-		this.driver = new ChromeDriver();
 		
 	
 		}
 	
 	
-	public void close() {
+	public void close() throws InterruptedException {
+		Thread.sleep(3000);
 		this.driver.close();
 	}
 	
