@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		
 		glue = {"stepDef", "utilities" },
 		
-		plugin = {"pretty","html:target/cucumber-html-report","json:cucumber.json"}
+		plugin = {"pretty","html:target/cucumber.html","json:cucumber.json"}
 		
 		)
 
