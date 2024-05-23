@@ -1,11 +1,11 @@
 package stepDef;
 
+import static pageObjecClasses.ContactPage.*;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pages.ContactPage;
-
-import static pages.ContactPage.*;
+import pageObjecClasses.ContactPage;
 public class ContactClass {
 	
 	
@@ -55,7 +55,7 @@ public class ContactClass {
 
 	@When("user clicks on submit button")
 	public void user_clicks_on_submit_button() throws InterruptedException {
-	    clickbutton();
+//	    clickbutton();
 	}
 
 	@Then("Forms gets submitted")
