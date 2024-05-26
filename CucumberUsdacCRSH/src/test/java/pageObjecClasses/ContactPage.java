@@ -1,4 +1,4 @@
-package pages;
+package pageObjecClasses;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -71,11 +71,11 @@ public class ContactPage extends BrowsersDriver {
 
 	}
 
-	public static void clickbutton() throws InterruptedException {
-
-		Thread.sleep(2000);
-		driver.findElement(By.xpath(clicking)).click();
-
-	}
+//	public static void clickbutton() throws InterruptedException {
+//
+//		Thread.sleep(2000);
+//		driver.findElement(By.xpath(clicking)).click();
+//
+//	}
 
 }
