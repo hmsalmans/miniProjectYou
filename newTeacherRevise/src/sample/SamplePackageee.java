@@ -335,7 +335,7 @@ public class SamplePackageee {
 	     
 		  // A new class is created separately called StaticLearn. please follow through that. And that is referenced in this class main method.
 
-	// if you use static key word in a function/method/declaration in different class, you don't need to create an object to use that function. You can just use that class to use that function.     
+	// if you use static key word in a function/method/declaration in different class, you don't need to create an object to use that function. You can just use that class name to use that function.     
 	     
 	     
 	     
