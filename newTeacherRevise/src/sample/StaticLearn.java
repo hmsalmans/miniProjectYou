@@ -16,6 +16,7 @@ public class StaticLearn {
 		 
 		 		int res = b - a;
 				return res;
+				
 		 		
 		 		
 	 
