@@ -40,7 +40,7 @@ public class Selenium {
 		 Iterator<String> iT = hndls.iterator();
 				 
 				 while(iT.hasNext()) {
-					 String childWind = iT.next();
+					 
 					 
 					 if(!parentWind.equals(childWind)) {
 						 driver.switchTo().window(childWind);
