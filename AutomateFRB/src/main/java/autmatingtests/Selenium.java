@@ -14,7 +14,7 @@ public class Selenium {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\d-hafiz.saleem\\OneDrive - afs.com\\Desktop\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/Users/apple/Desktop/QA/driver-1/chromedriver");
 		
 		WebDriver driver = new ChromeDriver();
 		
